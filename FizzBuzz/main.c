@@ -14,17 +14,17 @@ int main(int argc, const char * argv[]) {
     
     for (i = 1; i < 101; i++)
     {
-        if (((i % 5) != 0) && ((i % 3) == 0)) {
+        if (((i % 5) != 0) && ((i % 3) == 0)) { //determines if number is a multiple of 3 and not 5
             printf("i = Fizz\n");
         }
         else
         {
-            if (((i % 5) == 0) && ((i % 3) != 0)) {
+            if (((i % 5) == 0) && ((i % 3) != 0)) { //determines if number is a multiple of 5 and not 3
                 printf("i = Buzz\n");
             }
             else
             {
-                if (((i % 5) == 0) && ((i % 3) == 0)) {
+                if (((i % 5) == 0) && ((i % 3) == 0)) { //determines if number is a multiple of 5 and 3
                     printf("i = FizzBuzz\n");
                 }
                 else
